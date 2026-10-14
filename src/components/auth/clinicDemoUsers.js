@@ -1,0 +1,80 @@
+export const CLINIC_DEMO_USERS = [
+  {
+    id: "user-superadmin",
+    name: "Dr. Arvind Singhal",
+    roleId: "super_admin",
+    roleName: "Medical Director & Super Admin",
+    email: "director.singhal@aarogyadesk-demo.in",
+    password: "admin@aarogya",
+    avatar: "AS",
+    color: "from-teal-600 to-emerald-700",
+    department: "Executive Directorate, Jaipur Main Branch",
+    badge: "Full Healthcare Access",
+    accessLevel: "All 15 OPD & Diagnostic Laboratory Modules"
+  },
+  {
+    id: "user-doctor",
+    name: "Dr. Ananya Sharma",
+    roleId: "doctor",
+    roleName: "Consultant Physician",
+    email: "dr.ananya@aarogyadesk-demo.in",
+    password: "doctor@aarogya",
+    avatar: "AS",
+    color: "from-blue-600 to-indigo-700",
+    department: "OPD Consultation Room #3",
+    badge: "Clinical Practice",
+    accessLevel: "OPD Queue, Vitals, E-Prescriptions & Lab Requisitions"
+  },
+  {
+    id: "user-receptionist",
+    name: "Priya Gupta",
+    roleId: "receptionist",
+    roleName: "Front Desk & Receptionist",
+    email: "reception.priya@aarogyadesk-demo.in",
+    password: "reception@aarogya",
+    avatar: "PG",
+    color: "from-cyan-600 to-teal-700",
+    department: "Central Patient Registration Desk",
+    badge: "Front Desk & OPD",
+    accessLevel: "Patient Check-in, Appointments, Token Queue & Billing"
+  },
+  {
+    id: "user-labtech",
+    name: "Rahul Jain",
+    roleId: "lab_technician",
+    roleName: "Senior Lab Technician",
+    email: "lab.rahul@aarogyadesk-demo.in",
+    password: "lab@aarogya",
+    avatar: "RJ",
+    color: "from-amber-600 to-orange-700",
+    department: "Pathology & Biochemistry Testing Wing",
+    badge: "Diagnostic Lab",
+    accessLevel: "Sample Barcode Collection, Worklist & Test Results Entry"
+  },
+  {
+    id: "user-pathologist",
+    name: "Dr. Rajesh Khandelwal",
+    roleId: "pathologist",
+    roleName: "Chief Pathologist (Authorizer)",
+    email: "pathology.rajesh@aarogyadesk-demo.in",
+    password: "pathology@aarogya",
+    avatar: "RK",
+    color: "from-rose-600 to-pink-700",
+    department: "NABL Quality Oversight & Authorization Cell",
+    badge: "Quality & Sign-off",
+    accessLevel: "Clinical Lab Verification, Critical Value Review & Digital Sign-off"
+  },
+  {
+    id: "user-accountant",
+    name: "Amit Verma",
+    roleId: "accountant",
+    roleName: "Billing & Cashier",
+    email: "billing.amit@aarogyadesk-demo.in",
+    password: "billing@aarogya",
+    avatar: "AV",
+    color: "from-emerald-600 to-teal-700",
+    department: "Cash Counter #1 & Accounts",
+    badge: "Finance & Cashier",
+    accessLevel: "Patient Invoices, GST Receipts, Cash Drawer & Day-End Close"
+  }
+];

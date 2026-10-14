@@ -1,0 +1,8 @@
+{
+  "name": "Clinic & Diagnostic Centre Management System",
+  "description": "Comprehensive healthcare management software for Indian outpatient clinics and diagnostic laboratories featuring patient queue, clinical consultations, sample tracking, lab verification, billing, and inventory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
